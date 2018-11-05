@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        3 Capas
+        Capa Presentacion<--------------------->Capa Negocio<----------------------------------->Capa Datos
+        -Administra el flujo y                 -Procesar la logica de Negocio y/o Servicio      -Obtiene y guarda informacion de las fuentes de datos como 
+        presentacion de las pantallas          del Sistema                                       son: Una BD, archivo, etc
+        del sistema
+        
+        Cohesion, es la medida en la que un componente de software se dedica a realizar solo la tarea para la cual fue creado,
+        delegando las tareas complementarias a otros componentes
+        
+        --Hacer componentes no muy pequeños no muy grandes
+        
+        Acoplamiento, es la medida en que los cambios de un componente tiene a necesitar cambios de otro componente
+        se parar por capas
+        Objetivo alta cohesion y bajo acoplamiento
+        
+        Patrones de diseño                           
+        
+        Capa Presentacion             Capa Servicio             Capa Acceso a Datos
+        -MVC                          -Bussines Delegate        -DAO(Data Access Object)
+        -FrontController              -Service Locator          -DTO(Data Tranfer Object)
+        -DTO                          -DTO                      -etc
+        -etc                          -etc
+        
+        <div>TODO write content</div>
+    </body>
+</html>
